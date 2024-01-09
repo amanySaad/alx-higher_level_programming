@@ -1,4 +1,9 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    import string
-    print("{}".format(string.ascii_uppercase))
+
+import string
+
+# Get all uppercase letters from string module
+uppercase_letters = string.ascii_uppercase
+
+# Print all uppercase letters
+print(uppercase_letters)
